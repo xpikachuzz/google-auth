@@ -41,6 +41,7 @@ function App() {
 
     return (
         <div>
+            <h1>Details:</h1>
             <h2>React Google Login</h2>
             <br />
             <br />
