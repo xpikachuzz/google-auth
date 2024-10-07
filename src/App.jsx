@@ -1,7 +1,10 @@
 /*App.js*/
 
 import { useState, useEffect } from "react";
-import { googleLogout, useGoogleLogin } from "@react-oauth/google";
+import {
+    googleLogout,
+    useGoogleLogin,
+} from "../node_modules/@react-oauth/google";
 import axios from "axios";
 import "./App.css";
 
