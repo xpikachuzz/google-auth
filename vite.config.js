@@ -8,6 +8,9 @@ export default defineConfig({
     rollupOptions: {
       external: ['@react-oauth/google', 'axios'],
     }
+  },
+  resolve: {
+    extensions: ['*', '.jsx']
   }
 })
 
