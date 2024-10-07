@@ -5,7 +5,7 @@ import {
     googleLogout,
     useGoogleLogin,
 } from "../node_modules/@react-oauth/google";
-import axios from "axios";
+import axios from "../node_modules/axios";
 import "./App.css";
 
 function App() {
